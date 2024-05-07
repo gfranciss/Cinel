@@ -1,4 +1,4 @@
-NAME      = exs.a
+NAME      = exercicios
 CC        = cc
 CFLAGS    = -Wall -Wextra -Werror
 INCLUDE   = inc/exs1.h
@@ -8,6 +8,16 @@ OBJ_DIR   = ./obj
 SRCS = ex1.c\
 		ex2.c\
 		ex3.c\
+		ex4.c\
+		ex5.c\
+		ex6.c\
+		ex7.c\
+		ex8.c\
+		calculadora.c\
+		main.c\
+		ex9.c\
+		ex10.c\
+		ex11.c\
 
 
 OBJ = $(addprefix $(OBJ_DIR)/,$(notdir $(SRCS:.c=.o)))
@@ -18,7 +28,7 @@ $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
 
 $(NAME): $(OBJ) $(INCLUDE)
-	@ar -rcs $(NAME) $(OBJ)
+	@$(CC) $(OBJ) $(CFLAGS) -o $(NAME)
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c $(INCLUDE)
 	@$(CC) $(CFLAGS) -c $< -o $@
