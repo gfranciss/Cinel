@@ -15,5 +15,10 @@ void    calculadora(void);
 void    ex9(void);
 void    ex10(void);
 void    ex11(void);
+void    ex12(void);
+void    ex13(void);
+void    ex14(void);
+void    ex15(void);
+void    ex16(void);
 
 #endif

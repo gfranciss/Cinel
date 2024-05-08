@@ -44,6 +44,21 @@ int main()
         case 11:
             ex11();
             break;
+        case 12:
+            ex12();
+            break;
+        case 13:
+            ex13();
+            break;
+        case 14:
+            ex14();
+            break;
+        case 15:
+            ex15();
+            break;
+        case 16:
+            ex16();
+            break;
         default:
             printf("Opção inválida\n");
     }
