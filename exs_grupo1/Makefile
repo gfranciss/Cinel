@@ -23,6 +23,15 @@ SRCS = ex1.c\
 		ex14.c\
 		ex15.c\
 		ex16.c\
+		ex17.c\
+		ex18.c\
+		ex19.c\
+		ex20.c\
+		ex21.c\
+		ex22.c\
+		ex23.c\
+		ex24.c\
+		ex25.c\
 
 OBJ = $(addprefix $(OBJ_DIR)/,$(notdir $(SRCS:.c=.o)))
 
