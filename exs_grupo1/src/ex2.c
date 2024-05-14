@@ -4,6 +4,7 @@ void    contaRetangulo()
 {
     float base = 0;
     float altura = 0;
+    
     printf("Digite a base do retangulo: ");
     scanf("%f", &base);
     printf("Digite a altura do retangulo: ");
@@ -14,10 +15,12 @@ void    contaRetangulo()
 void   contaCirculo()
 {
     float raio = 0;
+    const double pi = 3.14;
+
     printf("Digite o raio do circulo: ");
     scanf("%f", &raio);
-    printf("A area do circulo é: %.2f\n", 3.14 * raio * raio);
-    printf("O perimetro do circulo é: %.2f\n", 2 * 3.14 * raio);
+    printf("A area do circulo é: %.2f\n", pi * raio * raio);
+    printf("O perimetro do circulo é: %.2f\n", 2 * pi * raio);
 }
 
 void    ex2(void)
