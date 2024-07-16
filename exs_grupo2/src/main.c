@@ -31,15 +31,15 @@ int main()
         case 8:
             ex8();
             break;
-        /*case 9:
-            ex9();
-            break;
+        //case 9:
+          //  ex9();
+            //break;
         case 10:
             ex10();
             break;
         case 11:
             ex11();
-            break;*/
+            break;
         default:
             printf("Opção inválida\n");
     }

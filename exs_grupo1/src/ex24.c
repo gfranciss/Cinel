@@ -22,7 +22,7 @@ void    ex24()
             printf("Preço de cada uma das 2 parcelas: %.2f\n", (price - (price * 0.2) / 2));
             break;
         case 3:
-            printf("Preço de cada uma das 3 parcelas: %.2f\n", (price + (price * 0.1) / 3));
+            printf("Preço de cada uma das 3 parcelas: %.2f\n", (price * 0.1) / 3);
             break;
         case 4:
             printf("Essa quantidade de parcelas não tem desconto, apenas divida %.2f pela "

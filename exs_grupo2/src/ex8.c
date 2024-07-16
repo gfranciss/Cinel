@@ -44,7 +44,7 @@ void    ex8()
         }        
     
     }
-    printf("Existem %d pessoas do sexo feminino e %d são maiores de idade e a média de idade feminina é: %2.f\n", feminine, adultF, ageF / feminine);
-    printf("Existem %d pessoas do sexo masculino e %d são maiores de idade e a média de idade masculina é: %2.f\n", masculine, adultM, ageM / masculine);
+    printf("Existem %d pessoas do sexo feminino e %d são maiores de idade e a média de idade feminina é: %2.d\n", feminine, adultF, ageF / feminine);
+    printf("Existem %d pessoas do sexo masculino e %d são maiores de idade e a média de idade masculina é: %2.d\n", masculine, adultM, ageM / masculine);
 
 }

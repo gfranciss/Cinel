@@ -14,9 +14,9 @@ SRCS = main.c\
 		ex6.c\
 		ex7.c\
 		ex8.c\
-		#ex9.c\
 		ex10.c\
 		ex11.c\
+		#ex9.c\
 
 OBJ = $(addprefix $(OBJ_DIR)/,$(notdir $(SRCS:.c=.o)))
 
